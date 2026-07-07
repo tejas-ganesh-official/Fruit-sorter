@@ -1,0 +1,3 @@
+# Only needed for the ALTERNATE trainer train_tf_mobilenet.py (TensorFlow / MobileNetV2).
+# Not required for the main train.py -> inference.py loop.
+tensorflow
