@@ -1,0 +1,30 @@
+# ---- Secrets / local config ----
+config.py
+.env
+*.local
+
+# ---- Telethon session (contains an auth token for your Telegram account!) ----
+*.session
+*.session-journal
+
+# ---- Model weights (large binaries — use Git LFS or a release if you must ship them) ----
+*.h5
+*.pth
+*.pt
+*.onnx
+*.tflite
+
+# ---- Captured / downloaded images ----
+latest.jpg
+captures/
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# ---- OS ----
+.DS_Store
+Thumbs.db
