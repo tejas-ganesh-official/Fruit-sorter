@@ -1,0 +1,6 @@
+# Main pipeline: train.py (PyTorch trainer) + inference.py (classifier + Telegram + ESP32)
+torch
+torchvision
+pillow
+telethon
+requests
